@@ -22,7 +22,7 @@ const LandingPage: React.FC = () => (
           “A vida por si só não exerce nenhum poder sobre o seu destino.
           Quem escolhe os caminhos, é você.”
         </Description>
-        <LinkToDashboard to="/">Entrar no sistema</LinkToDashboard>
+        <LinkToDashboard to="/dashboard">Entrar no sistema</LinkToDashboard>
       </Group>
       <BreadImage src={bread_icon} alt="BreadIcon" />
     </Main>
